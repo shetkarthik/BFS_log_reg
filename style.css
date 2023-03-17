@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: 500;
+}
+
+.background-tint {
+    filter: sepia(100%) saturate(5%) brightness(45%) hue-rotate(100deg);
+}
+
+
+.content_text {
+    display: block;
+    /* margin: auto; */
+    display: flex;
+    /* margin-top: 367px; */
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    text-align: center;
+    font-style: italic;
+}
+
+.content {
+    height: 100vh;
+}
+
+.avatar img {
+    width: 75px;
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+}
+
+
+.background::before {
+    height: 150vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: " ";
+    width: 58%;
+    /* content: ""; */
+    /* background: url("https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3xlbnwwfHwwfHw%3D&w=1000&q=80"); */
+    background: url("https://static.vecteezy.com/system/resources/previews/006/470/829/original/flat-style-illustration-of-bank-cashier-serving-his-customer-free-vector.jpg");
+    /* height: 130%; */
+    /* width: 75%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* opacity: 0.5; */
+}
+
+
+.p_font {
+    font-style: italic;
+    font-weight: 600;
+    color: blue;
+}
+
+.form-centered {
+    display: grid;
+    /* place-content: center;
+    align-items: center; */
+}
+
+.button-back {
+    background-color: rgb(255, 0, 0);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.status_color {
+    color: rgb(0, 0, 0);
+    background-color: rgb(17, 255, 0);
+    font-weight: bold;
+}
+
+.status_rcolor {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.carousel_height {
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+
+.sub_container {
+    height: 300px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.manager_heading {
+    padding: 12px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: #636397;
+    font-weight: 700;
+}
+
+.register_heading {
+    margin-bottom: 23px;
+    margin-top: 23px;
+    font-family: auto;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* font-variant: small-caps; */
+    font-size: 3.3rem;
+}
+
+.button-back:hover {
+    color: rgb(255, 0, 0);
+    background-color: white;
+    border: 1px solid rgb(255, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.button-log {
+    background-color: blueviolet;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.button-log:hover {
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid blueviolet;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.file_para {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    color: red;
+}
+
+.button_submit {
+    background-color: rgb(31, 178, 31);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.button_submit:hover {
+    color: rgb(31, 178, 31);
+
+    background-color: white;
+    border: 1px solid rgb(31, 178, 31);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.button-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 50%;
+}
+
+.app-check {
+    height: 20px;
+    width: 20px;
+    margin: 1%;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.card-spaced {
+    float: left
+}
+
+.manager_card_heading {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+
+.card-heading {
+    text-align: center;
+    font-family: auto;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.errmsg {
+    color: red;
+}
